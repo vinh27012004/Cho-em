@@ -2,16 +2,27 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Góc Tâm Sự</title>
+  <title>Lời Chúc Sinh Nhật</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>🌙 Góc Tâm Sự</h1>
-    <textarea id="input" placeholder="Viết tâm sự của bạn ở đây..."></textarea>
-    <button onclick="addThought()">Thêm Tâm Sự</button>
-    <div id="thoughts"></div>
+  <canvas id="fireworks"></canvas> <!-- Pháo hoa nền -->
+
+  <div class="card">
+    <h1>🎉 Chúc Mừng Sinh Nhật 🎉</h1>
+    
+    <div id="messages">
+      <p class="hidden">Chào em, cô gái anh yêu được hơn 7 tháng . 
+        Có lẽ là mình đã trải qua nhiều thăng trầm , giận hờn , buồn vui và chia tay ( giả ) cũng có nhưng mà cuối cùng mình vẫn ở đây cùng nhau viết tiếp câu chuyện chúng mình. Anh thấy hơi mắc cừ là mình cãi nhau toàn gần những sự kiện không à ( em từ sg về , sinh nhật em , kỉ niệm,… ) chung quy lại là có lúc anh sai ,có lúc mình mâu thuẫn vì hai quan điểm mình khác nhau. Anh chúc em tuổi mới đạt được nhiều thành công , bớt giận và mâu thuẫn với anh . Đặc biệt là yêuu anh và nhẹ nhàng với anh hơn nhoé</p>
+      💖💌
+    </div>
+    
+    <audio autoplay loop>
+      <source src="videoplayback.m4a" type="audio/mpeg">
+      Trình duyệt của bạn không hỗ trợ âm thanh.
+    </audio>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
